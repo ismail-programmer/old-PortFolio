@@ -1,0 +1,138 @@
+/* ? Line Gaps */
+.gap {
+  color: #a9a9a9;
+  border: dotted 0.8rem;
+  border-bottom: none;
+  width: 2rem;
+  margin: 3 auto;
+}
+
+body {
+  background: fixed;
+  background-image: url(./images/bg2.jpg);
+  background-size: cover;
+}
+.card {
+  background: rgba(255, 255, 255, 0.233);
+}
+.row {
+  margin-bottom: 0;
+}
+
+@import "https://fonts.googleapis.com/css?family=Monoton|Oswald&display=swap";
+.slide1 {
+  background-image: url(./images/slide2.jpg);
+}
+.carousel {
+  min-height: 580px;
+}
+.carousel-item {
+  background-size: cover;
+  background-position-y: 50%;
+}
+.slide2 {
+  background-image: url(./images/slide1.jpg);
+}
+.slide3 {
+  background-image: url(./images/slide3.jpg);
+}
+.slide4 {
+  background-image: url(./images/slide4.jpg);
+}
+.slide5 {
+  background-image: url(./images/slide5.jpg);
+}
+.slide6 {
+  background-image: url(./images/slide6.jpg);
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: background-color 0.4s ease-in-out, color 0.6s ease-out;
+  width: 100%;
+}
+.transparent-bg {
+  background-color: transparent;
+}
+.transparent-bg a {
+  color: #fff !important;
+}
+.transparent-bg button {
+  border-color: #000 !important;
+}
+.header li {
+  display: inline !important;
+}
+.header button {
+  border: none;
+  background: none;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid #fff;
+  padding: 15px 15px 20px;
+  margin-right: 10px;
+}
+.header button:hover {
+  transform: scale(1.2);
+}
+.header ul {
+  margin: 0;
+}
+.header h1 {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 3rem;
+  font-family: "Monoton", cursive;
+  transform: translateY(10px);
+}
+.header a {
+  height: 100%;
+  color: #fff;
+  font-size: 20px;
+}
+footer > * {
+  font-family: "Oswald", sans-serif;
+}
+footer h2 {
+  font-size: 1.5rem;
+}
+footer .logo {
+  text-align: center;
+  font-family: "Monoton", cursive;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 11px 0px;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+footer .wrapper {
+  display: flex;
+  color: #828282;
+}
+
+footer .left,
+footer .right {
+  flex: 1;
+}
+
+footer .business_nfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .business_nfo .tag {
+  flex-grow: 1;
+  position: relative;
+  width: 50%;
+  margin-bottom: 30px;
+}
+footer .business_nfo .icon {
+  position: absolute;
+  font-size: 35px;
+  top: 10px;
+  left: 0;
+}
+footer .business_nfo .nfo {
+  padding-left: 40px;
+}
