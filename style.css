@@ -7,19 +7,32 @@
   width: 2rem;
   margin: 3 auto;
 }
-#about{
-    padding: 1%;
-    margin: 0 auto;
-    background-color:rgba(255, 255, 255, 0.3);
+#about {
+  padding: 1%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 60%;
+  padding: 3%;
+  margin: 0 auto;
+  font-family: Monoton, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.font {
+  font-family: Monoton, Arial, Helvetica, sans-serif;
+  font-size: 32;
 }
 body {
   background: fixed;
   background-image: url(./images/bg2.jpg);
   background-size: cover;
 }
-.rj,.js,.css,.fs {
+.rj,
+.js,
+.css,
+.fs {
   background: rgba(255, 255, 255, 0.233);
 }
+
 .row {
   margin-bottom: 0;
 }
@@ -58,7 +71,7 @@ body {
   width: 100%;
 }
 .transparent-bg {
-  background-color: rgba(255, 255, 255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .transparent-bg a {
   color: #000 !important;
